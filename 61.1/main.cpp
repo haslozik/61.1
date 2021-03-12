@@ -49,9 +49,9 @@ void  ciagi::licz() {
       				} else {
       					liczba_pop_c++;
       					t2.push_back(roznica);
-					}
-   				}
- 			}
+				}
+   			}
+ 		}
 }
 	plik2 <<"Liczba ciagow arytm: "<<liczba_pop_c<<endl;
 	plik.close();
@@ -66,7 +66,7 @@ void  ciagi::znajdz_max() {
 	for( int i=1; i<200; i++)
 		if (max <t2[i])
 			max = t2[i];
-		plik2<<"Najwieksza róznica: "<<max;
+		plik2<<"Najwieksza rÃ³znica: "<<max;
 		plik2.close();
 }
 
